@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2024/01/18/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
+    <loc>https://sp921.github.io/ssp/2024/01/18/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
     
     <lastmod>2024-01-18</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>https://sp921.github.io/ssp/categories/index.html</loc>
     
     <lastmod>2024-01-18</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://sp921.github.io/ssp/tags/index.html</loc>
     
     <lastmod>2024-01-18</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/category/index.html</loc>
+    <loc>https://sp921.github.io/ssp/category/index.html</loc>
     
     <lastmod>2024-01-18</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>https://sp921.github.io/ssp/about/index.html</loc>
     
     <lastmod>2024-01-18</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2024/01/18/hello-world/</loc>
+    <loc>https://sp921.github.io/ssp/2024/01/18/hello-world/</loc>
     
     <lastmod>1985-10-26</lastmod>
     
@@ -57,7 +57,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://sp921.github.io/ssp</loc>
     <lastmod>2024-01-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
