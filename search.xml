@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>hexo cmd</title>
+      <link href="/ssp/2024/01/18/hexo-cmd/"/>
+      <url>/ssp/2024/01/18/hexo-cmd/</url>
+      
+        <content type="html"><![CDATA[<p>更新:hexo deploy</p><p>构建:hexo g</p><p>清理:hexo clean</p><p>新建文章:hexo new “postName”</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> cmd </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇文章</title>
       <link href="/ssp/2024/01/18/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/ssp/2024/01/18/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
