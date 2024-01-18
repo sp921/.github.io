@@ -1406,13 +1406,13 @@ template {
 }
 .list-group .list-group-item .post-date {
   float: right;
-  color: #707070;
+  color: $footer-text-color;
 }
 .post-wrapper {
   position: relative;
 }
 .post-wrapper .post-meta {
-  color: #707070;
+  color: $footer-text-color;
 }
 .post-wrapper .post-meta time {
   padding-left: 5px;
@@ -1424,7 +1424,7 @@ template {
   color: #3f3f3f;
 }
 .post-wrapper .post-meta .tag {
-  color: #707070;
+  color: $footer-text-color;
   font-weight: 500;
   font-size: 0.85rem;
   margin-right: 2px;
@@ -1466,10 +1466,10 @@ template {
   width: 30%;
   font-size: 12px;
   font-weight: 500;
-  color: #707070;
+  color: $footer-text-color;
 }
 .footer-wrapper .right-content a {
-  color: #707070;
+  color: $footer-text-color;
   text-decoration: underline;
 }
 header {
@@ -1538,6 +1538,7 @@ nav .container .menu-wrapper ul li a {
   transition: letter-spacing 0.2s ease-in, font-weight 0.2s ease-in;
 }
 nav .container .menu-wrapper ul li a:hover {
+  color: #0a58ca;
   letter-spacing: 1px;
   font-weight: 500;
 }
@@ -1628,7 +1629,7 @@ nav .container .menu-wrapper ul li:last-child {
 .pagination-wrapper > div > span,
 .pagination-wrapper > div a {
   padding: 1rem;
-  color: #707070;
+  color: $footer-text-color;
 }
 .pagination-wrapper > div > span.current,
 .pagination-wrapper > div a.current {
@@ -1658,13 +1659,13 @@ nav .container .menu-wrapper ul li:last-child {
   top: 5px;
   left: 5px;
   position: absolute;
-  color: #707070;
+  color: $footer-text-color;
 }
 .input-wrapper .search-input {
   outline: none;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #707070;
+  border-bottom: 1px solid $footer-text-color;
   padding: 5px 15px 5px 30px;
 }
 .result-wrapper a .title {
@@ -1676,10 +1677,10 @@ nav .container .menu-wrapper ul li:last-child {
   color: #0d6efd;
 }
 .result-wrapper .content {
-  color: #707070;
+  color: $footer-text-color;
 }
 .result-wrapper .search-tag {
-  color: #707070;
+  color: $footer-text-color;
   font-weight: 500;
   font-size: 0.85rem;
   margin-right: 2px;
@@ -1736,9 +1737,9 @@ nav .container .menu-wrapper ul li:last-child {
   padding: 0 5px;
   text-decoration: none;
 }
-.about-wrapper .about-icon a:hover {
+.about-wrapper .about-icon:hover {
   color: #0a58ca;
-  font-size: 1.9rem;
+  font-size: 1.2rem;
   padding: 0 5px;
   text-decoration: none;
 }
@@ -1746,7 +1747,7 @@ nav .container .menu-wrapper ul li:last-child {
   font-weight: 500;
 }
 .categories-wrapper ul li .category-count {
-  color: #707070 !important;
+  color: $footer-text-color !important;
   float: right;
 }
 .categories-wrapper ul li a:hover {
@@ -1786,14 +1787,14 @@ nav .container .menu-wrapper ul li:last-child {
   padding: 0.5rem 0;
 }
 .index-wrapper .index-post-wrapper .post-intro .post-footer {
-  color: #707070;
+  color: $footer-text-color;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .index-wrapper .index-post-wrapper .post-intro .post-footer > time {
-  color: #707070;
+  color: $footer-text-color;
   margin-right: 5px;
   line-height: 100%;
 }
@@ -1801,7 +1802,7 @@ nav .container .menu-wrapper ul li:last-child {
   line-height: 100%;
 }
 .index-wrapper .index-post-wrapper .post-intro .post-footer .tag {
-  color: #707070;
+  color: $footer-text-color;
   font-weight: 500;
   font-size: 0.85rem;
   margin-right: 2px;
