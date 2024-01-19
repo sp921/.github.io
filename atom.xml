@@ -6,7 +6,7 @@
   <link href="https://sp921.github.io/ssp/atom.xml" rel="self"/>
   
   <link href="https://sp921.github.io/ssp/"/>
-  <updated>2024-01-19T06:21:08.535Z</updated>
+  <updated>2024-01-19T09:54:51.890Z</updated>
   <id>https://sp921.github.io/ssp/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C#动态创建对象</title>
+    <link href="https://sp921.github.io/ssp/posts/1935/"/>
+    <id>https://sp921.github.io/ssp/posts/1935/</id>
+    <published>2024-01-19T09:39:56.000Z</published>
+    <updated>2024-01-19T09:54:51.890Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="C-通过全类名创建对象">C#通过全类名创建对象</h3><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">public static class Program&#123;    public static void Main(string[] args)    &#123;       var  teacher &#x3D; GetObj&lt;IPerson&gt;(&quot;ConsoleApp.Teacher&quot;)!;               teacher.Eat(&quot;胡&quot;);              var  student &#x3D; GetObj&lt;IPerson&gt;(&quot;ConsoleApp.Student&quot;)!;               student.Eat(&quot;胡&quot;);    &#125;    private static TInterface? GetObj&lt;TInterface&gt; (string name)    &#123;       var t &#x3D; (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;       return t;    &#125;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;C-通过全类名创建对象&quot;&gt;C#通过全类名创建对象&lt;/h3&gt;
+&lt;pre class=&quot;line-numbers language-c#&quot; data-language=&quot;c#&quot;&gt;&lt;code class=&quot;language-c#&quot;&gt;public static class</summary>
+      
+    
+    
+    
+    
+    <category term="编程" scheme="https://sp921.github.io/ssp/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Office Online Server搭建操作</title>

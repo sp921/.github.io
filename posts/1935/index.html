@@ -23,7 +23,7 @@
 
 
   
-  <title>Sp</title>
+  <title>C#动态创建对象 - Sp</title>
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/ssp/atom.xml" title="Sp" type="application/atom+xml">
 </head>
 
@@ -86,82 +86,56 @@
       <div id="main">
         <div class="row py-5">
           <div class="col">
-            <div class="index-wrapper">
-  
-    <article class="row index-post-wrapper">
+            <div class="row">
+  <div class="left-content">
+    <article class="post-wrapper markdown-body">
+  <h2 class="post-title">
+    C#动态创建对象
+  </h2>
+  <div class="post-meta">
+    <time datetime="Invalid date Invalid date ">2024-01-19</time>
+    
+    
+       
+    
+    
       
-      <div class="col-12 col-md-12 mx-auto post-intro">
-        <div class="post-header ">
-          <a href="/ssp/posts/1935/" target="_self">
-            <h3>C#动态创建对象</h3>
-          </a>
-          
-        </div>
-        <div class="description">
-          
-            C#通过全类名创建对象
-public static class Program
+        <a class="tag" href="/ssp/tags/%E7%BC%96%E7%A8%8B/">编程</a> 
+       
+    
+    
+  </div>
+  
+  <div id="content">
+    <h3 id="C-通过全类名创建对象">C#通过全类名创建对象</h3>
+<pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">public static class Program
 &#123;
     public static void Main(string[] args)
     &#123;
        var  teacher &#x3D; GetObj&lt;IPerson&gt;(&quot;ConsoleApp.Teacher&quot;)!;
         
-       ...
-          
-        </div>
-        <div class="post-footer">
-          <time datetime="2024-01-19 17:39" pubdate>
-            2024-01-19
-          </time>
-          <div>
-             
-            
-               
-                <a class="tag" href="/ssp/tags/%E7%BC%96%E7%A8%8B/">编程</a>
-               
-            
-          </div>
-        </div>
-      </div>
-    </article>
-  
-    <article class="row index-post-wrapper">
-      
-      <div class="col-12 col-md-12 mx-auto post-intro">
-        <div class="post-header ">
-          <a href="/ssp/posts/12996/" target="_self">
-            <h3>Office Online Server搭建操作</h3>
-          </a>
-          
-        </div>
-        <div class="description">
-          
-            SAF
-创建OOS场
-New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled
-开放URL
-Set-OfficeWebAppsFarm -OpenFromUrlEnabled:$true
-...
-          
-        </div>
-        <div class="post-footer">
-          <time datetime="2024-01-19 10:41" pubdate>
-            2024-01-19
-          </time>
-          <div>
-             
-            
-               
-                <a class="tag" href="/ssp/tags/Ms/">Ms</a>
-               
-            
-          </div>
-        </div>
-      </div>
-    </article>
-   
-</div>
+       teacher.Eat(&quot;胡&quot;);
+       
+       var  student &#x3D; GetObj&lt;IPerson&gt;(&quot;ConsoleApp.Student&quot;)!;
+        
+       student.Eat(&quot;胡&quot;);
+    &#125;
 
+    private static TInterface? GetObj&lt;TInterface&gt; (string name)
+    &#123;
+       var t &#x3D; (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;
+       return t;
+    &#125;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+  </div>
+
+</article>
+  </div>
+  <div class="right-content">
+    <div id="toc" class="toc-wrapper"></div>
+  <div>
+</div>
 
 
           </div>
