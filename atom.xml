@@ -6,7 +6,7 @@
   <link href="https://sp921.github.io/ssp/atom.xml" rel="self"/>
   
   <link href="https://sp921.github.io/ssp/"/>
-  <updated>2024-01-19T04:56:56.704Z</updated>
+  <updated>2024-01-19T06:21:08.535Z</updated>
   <id>https://sp921.github.io/ssp/</id>
   
   <author>
@@ -21,15 +21,16 @@
     <link href="https://sp921.github.io/ssp/posts/12996/"/>
     <id>https://sp921.github.io/ssp/posts/12996/</id>
     <published>2024-01-19T02:41:07.000Z</published>
-    <updated>2024-01-19T04:56:56.704Z</updated>
+    <updated>2024-01-19T06:21:08.535Z</updated>
     
-    <content type="html"><![CDATA[<h1>SAF</h1><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">New-OfficeWebAppsFarm <span class="token parameter variable">-InternalURL</span> http://192.168.116.176 <span class="token parameter variable">-AllowHttp</span> <span class="token parameter variable">-EditingEnabled</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="token variable">$true</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+    <content type="html"><![CDATA[<h1>SAF</h1><h3 id="创建OOS场">创建OOS场</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">New-OfficeWebAppsFarm <span class="token parameter variable">-InternalURL</span> http://192.168.116.176 <span class="token parameter variable">-AllowHttp</span> <span class="token parameter variable">-EditingEnabled</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="开放URL">开放URL</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="token variable">$true</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
     
     
       
       
     <summary type="html">&lt;h1&gt;SAF&lt;/h1&gt;
-&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;New-OfficeWebAppsFarm &lt;span class=&quot;tok</summary>
+&lt;h3 id=&quot;创建OOS场&quot;&gt;创建OOS场&lt;/h3&gt;
+&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;New-Office</summary>
       
     
     
