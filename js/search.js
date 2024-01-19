@@ -1,9 +1,9 @@
-listenSearchInput('/search.xml', '#search', '#result');
+listenSearchInput('/ssp/search.xml', '#search', '#result');
 
 function listenSearchInput(url, searchId, resultId) {
   const searchEl = $(searchId);
   const resultEl = $(resultId);
-
+  console.log(url);
   $('#searchModal').on('shown.bs.modal', function () {
     searchEl.focus();
   })
@@ -17,7 +17,7 @@ function listenSearchInput(url, searchId, resultId) {
     url,
     dataType: "xml",
     success: function (response) {
-      console.log(url);
+
       let data = $('entry', response).map(function() {
         return {
           title: $('title', this).text(),
