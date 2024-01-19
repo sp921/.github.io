@@ -1,45 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>C#动态创建对象</title>
-      <link href="/ssp/posts/1935/"/>
-      <url>/ssp/posts/1935/</url>
-      
-        <content type="html"><![CDATA[<h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3><pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">public static class Program&#123;    public static void Main(string[] args)    &#123;       var  teacher &#x3D; GetObj&lt;IPerson&gt;(&quot;ConsoleApp.Teacher&quot;)!;               teacher.Eat(&quot;胡&quot;);              var  student &#x3D; GetObj&lt;IPerson&gt;(&quot;ConsoleApp.Student&quot;)!;               student.Eat(&quot;胡&quot;);    &#125;    private static TInterface? GetObj&lt;TInterface&gt; (string name)    &#123;       var t &#x3D; (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;       return t;    &#125;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 编程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Office Online Server搭建操作</title>
-      <link href="/ssp/posts/12996/"/>
-      <url>/ssp/posts/12996/</url>
-      
-        <content type="html"><![CDATA[<h1 id="saf"><a class="markdownIt-Anchor" href="#saf"></a> SAF</h1><h3 id="创建oos场"><a class="markdownIt-Anchor" href="#创建oos场"></a> 创建OOS场</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">New-OfficeWebAppsFarm <span class="token parameter variable">-InternalURL</span> http://192.168.116.176 <span class="token parameter variable">-AllowHttp</span> <span class="token parameter variable">-EditingEnabled</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="开放url"><a class="markdownIt-Anchor" href="#开放url"></a> 开放URL</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="token variable">$true</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Ms </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>C#动态创建对象</title>
+    <url>/ssp/posts/1935/</url>
+    <content><![CDATA[<h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3>
+<pre class="line-numbers language-c#" data-language="c#"><code class="language-c#">public static class Program
+&#123;
+    public static void Main(string[] args)
+    &#123;
+       var  teacher &#x3D; GetObj&lt;IPerson&gt;(&quot;ConsoleApp.Teacher&quot;)!;
+        
+       teacher.Eat(&quot;胡&quot;);
+       
+       var  student &#x3D; GetObj&lt;IPerson&gt;(&quot;ConsoleApp.Student&quot;)!;
+        
+       student.Eat(&quot;胡&quot;);
+    &#125;
+
+    private static TInterface? GetObj&lt;TInterface&gt; (string name)
+    &#123;
+       var t &#x3D; (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;
+       return t;
+    &#125;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+]]></content>
+      <tags>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Office Online Server搭建操作</title>
+    <url>/ssp/posts/12996/</url>
+    <content><![CDATA[<h1 id="saf"><a class="markdownIt-Anchor" href="#saf"></a> SAF</h1>
+<h3 id="创建oos场"><a class="markdownIt-Anchor" href="#创建oos场"></a> 创建OOS场</h3>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">New-OfficeWebAppsFarm <span class="token parameter variable">-InternalURL</span> http://192.168.116.176 <span class="token parameter variable">-AllowHttp</span> <span class="token parameter variable">-EditingEnabled</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="开放url"><a class="markdownIt-Anchor" href="#开放url"></a> 开放URL</h3>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="token variable">$true</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+]]></content>
+      <tags>
+        <tag>Ms</tag>
+      </tags>
+  </entry>
 </search>
