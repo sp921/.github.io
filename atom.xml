@@ -6,7 +6,7 @@
   <link href="https://sp921.github.io/ssp/atom.xml" rel="self"/>
   
   <link href="https://sp921.github.io/ssp/"/>
-  <updated>2024-01-19T02:50:31.647Z</updated>
+  <updated>2024-01-19T04:56:56.704Z</updated>
   <id>https://sp921.github.io/ssp/</id>
   
   <author>
@@ -21,14 +21,15 @@
     <link href="https://sp921.github.io/ssp/posts/12996/"/>
     <id>https://sp921.github.io/ssp/posts/12996/</id>
     <published>2024-01-19T02:41:07.000Z</published>
-    <updated>2024-01-19T02:50:31.647Z</updated>
+    <updated>2024-01-19T04:56:56.704Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="variable">$true</span></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1>SAF</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="variable">$true</span></span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span clas</summary>
+    <summary type="html">&lt;h1&gt;SAF&lt;/h1&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;p</summary>
       
     
     
