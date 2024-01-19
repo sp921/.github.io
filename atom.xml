@@ -38,25 +38,4 @@
     
   </entry>
   
-  <entry>
-    <title>Hello World</title>
-    <link href="https://sp921.github.io/ssp/posts/16107/"/>
-    <id>https://sp921.github.io/ssp/posts/16107/</id>
-    <published>2024-01-18T05:09:29.228Z</published>
-    <updated>2024-01-19T02:35:45.536Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="什么是-Vue？">什么是 Vue？</h2><p>Vue (发音为 /vjuː/，类似 <strong>view</strong>) 是一款用于构建用户界面的 JavaScript 框架。它基于标准 HTML、CSS 和 JavaScript 构建，并提供了一套声明式的、组件化的编程模型，帮助你高效地开发用户界面。无论是简单还是复杂的界面，Vue 都可以胜任。</p><p>下面是一个最基本的示例：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; createApp, ref &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="title function_">createApp</span>(&#123;</span><br><span class="line">  <span class="title function_">setup</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">      <span class="attr">count</span>: <span class="title function_">ref</span>(<span class="number">0</span>)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;).<span class="title function_">mount</span>(<span class="string">&#x27;#app&#x27;</span>)</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;什么是-Vue？&quot;&gt;什么是 Vue？&lt;/h2&gt;
-&lt;p&gt;Vue (发音为 /vjuː/，类似 &lt;strong&gt;view&lt;/strong&gt;) 是一款用于构建用户界面的 JavaScript 框架。它基于标准 HTML、CSS 和 JavaScript 构建，并提供了一</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
 </feed>
