@@ -23,13 +23,13 @@
     <published>2024-01-19T02:41:07.000Z</published>
     <updated>2024-01-19T04:56:56.704Z</updated>
     
-    <content type="html"><![CDATA[<h1>SAF</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="variable">$true</span></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1>SAF</h1><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">New-OfficeWebAppsFarm <span class="token parameter variable">-InternalURL</span> http://192.168.116.176 <span class="token parameter variable">-AllowHttp</span> <span class="token parameter variable">-EditingEnabled</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="token variable">$true</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
     
     
       
       
     <summary type="html">&lt;h1&gt;SAF&lt;/h1&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;p</summary>
+&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;New-OfficeWebAppsFarm &lt;span class=&quot;tok</summary>
       
     
     

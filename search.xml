@@ -8,7 +8,7 @@
       <link href="/ssp/posts/12996/"/>
       <url>/ssp/posts/12996/</url>
       
-        <content type="html"><![CDATA[<h1>SAF</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="variable">$true</span></span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1>SAF</h1><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">New-OfficeWebAppsFarm <span class="token parameter variable">-InternalURL</span> http://192.168.116.176 <span class="token parameter variable">-AllowHttp</span> <span class="token parameter variable">-EditingEnabled</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="token variable">$true</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
       
       
       
