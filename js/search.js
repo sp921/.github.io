@@ -17,6 +17,7 @@ function listenSearchInput(url, searchId, resultId) {
     url,
     dataType: "xml",
     success: function (response) {
+      console.log(url);
       let data = $('entry', response).map(function() {
         return {
           title: $('title', this).text(),
@@ -77,6 +78,7 @@ function listenSearchInput(url, searchId, resultId) {
           })
         }
 
+    
         resultEl.html(resultHTML);
       })
     }
