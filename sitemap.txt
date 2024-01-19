@@ -3,5 +3,5 @@ https://sp921.github.io/ssp/categories/index.html
 https://sp921.github.io/ssp/tags/index.html
 https://sp921.github.io/ssp/category/index.html
 https://sp921.github.io/ssp/about/index.html
-https://sp921.github.io/ssp/2024/01/18/hello-world/
+https://sp921.github.io/ssp/posts/16107/
 https://sp921.github.io/ssp
