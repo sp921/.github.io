@@ -1,3 +1,4 @@
+https://sp921.github.io/ssp/posts/24928/
 https://sp921.github.io/ssp/posts/12996/
 https://sp921.github.io/ssp/posts/1935/
 https://sp921.github.io/ssp/contactway/index.html
@@ -7,4 +8,5 @@ https://sp921.github.io/ssp/category/index.html
 https://sp921.github.io/ssp/about/index.html
 https://sp921.github.io/ssp
 https://sp921.github.io/ssp/tags/%E7%BC%96%E7%A8%8B/
+https://sp921.github.io/ssp/tags/npm/
 https://sp921.github.io/ssp/tags/Ms/

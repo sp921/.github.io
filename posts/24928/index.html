@@ -23,7 +23,7 @@
 
 
   
-  <title>Archive - 编程 - Sp</title>
+  <title>CERT_HAS_EXPIRED - Sp</title>
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/ssp/atom.xml" title="Sp" type="application/atom+xml">
 </head>
 
@@ -86,29 +86,55 @@
       <div id="main">
         <div class="row py-5">
           <div class="col">
-            
-
-<ul class="list-group">
-  <h2 class="list-header">3 Posts</h2>
-   
-  
+            <div class="row">
+  <div class="left-content">
+    <article class="post-wrapper markdown-body">
+  <h2 class="post-title">
+    CERT_HAS_EXPIRED
+  </h2>
+  <div class="post-meta">
+    <time datetime="Invalid date Invalid date ">2024-01-22</time>
+    
     
        
-      <h3>2024</h3>
     
-    <li class="list-group-item">
-      <div class="d-inline">
-        <a href="/ssp/posts/1935/" target="_self">
-          C#动态创建对象
-        </a>
-      </div>
-      <div class="post-date">01/19  
-    </li>
-   
-</ul>
+    
+      
+        <a class="tag" href="/ssp/tags/npm/">npm</a> 
+       
+    
+    
+  </div>
+  
+  <div id="content">
+    <p>npm ERR! code CERT_HAS_EXPIRED<br />
+npm ERR! errno CERT_HAS_EXPIRED<br />
+npm ERR! request to <a target="_blank" rel="noopener" href="https://r.cnpmjs.org/md5">https://r.cnpmjs.org/md5</a> failed, reason: certificate has expired</p>
+<p>npm ERR! A complete log of this run can be found in:<br />
+npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debug.log</p>
+<p>解决方案：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> cache clean <span class="token parameter variable">--force</span>
+<span class="token function">npm</span> config <span class="token builtin class-name">set</span> strict-ssl <span class="token boolean">false</span>
+<span class="token function">npm</span> <span class="token function">install</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+  </div>
+
+</article>
+  </div>
+  <div class="right-content">
+    <div id="toc" class="toc-wrapper"></div>
+  <div>
+    <link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/9.2.0/styles/github.min.css">
+<script src="//cdn.bootcss.com/highlight.js/9.2.0/highlight.min.js">
+
+  // highlight
+  hljs.initHighlightingOnLoad();
+
+</script>
+
+</div>
 
 
- 
           </div>
         </div>
       </div>
