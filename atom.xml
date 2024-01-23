@@ -6,7 +6,7 @@
   <link href="https://sp921.github.io/ssp/atom.xml" rel="self"/>
   
   <link href="https://sp921.github.io/ssp/"/>
-  <updated>2024-01-23T03:26:02.817Z</updated>
+  <updated>2024-01-23T03:26:15.772Z</updated>
   <id>https://sp921.github.io/ssp/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://sp921.github.io/ssp/posts/132285970/"/>
     <id>https://sp921.github.io/ssp/posts/132285970/</id>
     <published>2024-01-23T03:23:22.000Z</published>
-    <updated>2024-01-23T03:26:02.817Z</updated>
+    <updated>2024-01-23T03:26:15.772Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span> <span class="hljs-params">()</span>&#123;<br><br>    System.out.print(<span class="hljs-string">&quot;hello world&quot;</span>)<br><br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span> <span class="hljs-params">()</span>&#123;<br><br>    System.out.print(<span class="hljs-string">&quot;hello world&quot;</span>)<br><br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=</summary>
+    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;public&lt;/span&gt; &lt;span class</summary>
       
     
     
@@ -43,7 +43,7 @@
     <published>2024-01-22T08:19:30.000Z</published>
     <updated>2024-01-22T08:20:10.786Z</updated>
     
-    <content type="html"><![CDATA[<p>npm ERR! code CERT_HAS_EXPIRED<br />npm ERR! errno CERT_HAS_EXPIRED<br />npm ERR! request to <a href="https://r.cnpmjs.org/md5">https://r.cnpmjs.org/md5</a> failed, reason: certificate has expired</p><p>npm ERR! A complete log of this run can be found in:<br />npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debug.log</p><p>解决方案：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm cache clean --force<br>npm config <span class="hljs-built_in">set</span> strict-ssl <span class="hljs-literal">false</span><br>npm install<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>npm ERR! code CERT_HAS_EXPIRED<br />npm ERR! errno CERT_HAS_EXPIRED<br />npm ERR! request to <a href="https://r.cnpmjs.org/md5">https://r.cnpmjs.org/md5</a> failed, reason: certificate has expired</p><p>npm ERR! A complete log of this run can be found in:<br />npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debug.log</p><p>解决方案：</p><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">npm cache clean --force<br>npm config <span class="hljs-built_in">set</span> strict-ssl <span class="hljs-literal">false</span><br>npm install<br></code></pre></td></tr></table></figure>]]></content>
     
     
       
@@ -67,7 +67,7 @@ npm ERR! request to &lt;a href=&quot;https://r.cnpmjs.org/md5&quot;&gt;https:/</
     <published>2024-01-19T09:39:56.000Z</published>
     <updated>2024-01-19T09:54:51.890Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs c#"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Program</span><br>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-built_in">string</span>[] args</span>)</span><br>    &#123;<br>       <span class="hljs-keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Teacher&quot;</span>)!;<br>        <br>       teacher.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>       <br>       <span class="hljs-keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Student&quot;</span>)!;<br>        <br>       student.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>    &#125;<br><br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="hljs-built_in">string</span> name)<br>    &#123;<br>       <span class="hljs-keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;<br>       <span class="hljs-keyword">return</span> t;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3><figure class="highlight c#"><table><tr><td class="code"><pre><code class="hljs c#"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Program</span><br>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-built_in">string</span>[] args</span>)</span><br>    &#123;<br>       <span class="hljs-keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Teacher&quot;</span>)!;<br>        <br>       teacher.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>       <br>       <span class="hljs-keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Student&quot;</span>)!;<br>        <br>       student.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>    &#125;<br><br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="hljs-built_in">string</span> name)<br>    &#123;<br>       <span class="hljs-keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;<br>       <span class="hljs-keyword">return</span> t;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
     
     
       
@@ -90,7 +90,7 @@ npm ERR! request to &lt;a href=&quot;https://r.cnpmjs.org/md5&quot;&gt;https:/</
     <published>2024-01-19T02:41:07.000Z</published>
     <updated>2024-01-22T05:26:36.380Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="saf"><a class="markdownIt-Anchor" href="#saf"></a> SAF</h1><h3 id="创建oos场"><a class="markdownIt-Anchor" href="#创建oos场"></a> 创建OOS场</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled<br></code></pre></td></tr></table></figure><h3 id="开放url"><a class="markdownIt-Anchor" href="#开放url"></a> 开放URL</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="hljs-variable">$true</span><br></code></pre></td></tr></table></figure><h3 id="查看oos场信息"><a class="markdownIt-Anchor" href="#查看oos场信息"></a> 查看OOS场信息</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">Get-OfficeWebAppsFarm<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="saf"><a class="markdownIt-Anchor" href="#saf"></a> SAF</h1><h3 id="创建oos场"><a class="markdownIt-Anchor" href="#创建oos场"></a> 创建OOS场</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled<br></code></pre></td></tr></table></figure><h3 id="开放url"><a class="markdownIt-Anchor" href="#开放url"></a> 开放URL</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="hljs-variable">$true</span><br></code></pre></td></tr></table></figure><h3 id="查看oos场信息"><a class="markdownIt-Anchor" href="#查看oos场信息"></a> 查看OOS场信息</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">Get-OfficeWebAppsFarm<br></code></pre></td></tr></table></figure>]]></content>
     
     
       

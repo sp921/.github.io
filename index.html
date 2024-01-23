@@ -98,7 +98,7 @@
         </div>
         <div class="description">
           
-            12345public static void main ()&#123;    	System.out.print(&quot;hello world&quot;)	&#125;
+            public static void main ()&#123;    	System.out.print(&quot;hello world&quot;)	&#125;
 ...
           
         </div>
@@ -159,7 +159,7 @@ npm ERR! A complete log of this run can be found in:...
         <div class="description">
           
              C#通过全类名创建对象
-12345678910111213141516171819public static class Program&#123;    public static void Main(string[] args)    &#123;       var  teacher = GetObj&lt;IPerson&gt;(&quot;ConsoleApp.Teacher&quot...
+public static class Program&#123;    public static void Main(string[] args)    &#123;       var  teacher = GetObj&lt;IPerson&gt;(&quot;ConsoleApp.Teacher&quot;)!;               teacher.Ea...
           
         </div>
         <div class="post-footer">
@@ -191,11 +191,11 @@ npm ERR! A complete log of this run can be found in:...
           
              SAF
  创建OOS场
-1New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled
+New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled
  开放URL
-1Set-OfficeWebAppsFarm -OpenFromUrlEnabled:$true
+Set-OfficeWebAppsFarm -OpenFromUrlEnabled:$true
  查看OOS场信息
-1Get-OfficeWebAppsFarm
+Get-OfficeWebAppsFarm
 ...
           
         </div>
