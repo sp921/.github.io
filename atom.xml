@@ -6,7 +6,7 @@
   <link href="https://sp921.github.io/ssp/atom.xml" rel="self"/>
   
   <link href="https://sp921.github.io/ssp/"/>
-  <updated>2024-01-22T08:20:10.786Z</updated>
+  <updated>2024-01-23T03:26:02.817Z</updated>
   <id>https://sp921.github.io/ssp/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>代码块高亮显示</title>
+    <link href="https://sp921.github.io/ssp/posts/132285970/"/>
+    <id>https://sp921.github.io/ssp/posts/132285970/</id>
+    <published>2024-01-23T03:23:22.000Z</published>
+    <updated>2024-01-23T03:26:02.817Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span> <span class="hljs-params">()</span>&#123;<br><br>    System.out.print(<span class="hljs-string">&quot;hello world&quot;</span>)<br><br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>CERT_HAS_EXPIRED</title>

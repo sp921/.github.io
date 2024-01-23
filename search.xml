@@ -40,4 +40,10 @@ npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debu
         <tag>npm</tag>
       </tags>
   </entry>
+  <entry>
+    <title>代码块高亮显示</title>
+    <url>/ssp/posts/132285970/</url>
+    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span> <span class="hljs-params">()</span>&#123;<br><br>    	System.out.print(<span class="hljs-string">&quot;hello world&quot;</span>)<br>	<br>&#125;<br></code></pre></td></tr></table></figure>
+]]></content>
+  </entry>
 </search>
