@@ -10,8 +10,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="/ssp/img/favicon.png">
-  <script src="/ssp/js/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+
   
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 
@@ -21,7 +20,8 @@
   
 <link rel="stylesheet" href="/ssp/css/style.css">
 
-
+  <script src="/ssp/js/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
   
   <title>C#动态创建对象 - Sp</title>
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/ssp/atom.xml" title="Sp" type="application/atom+xml">
@@ -108,7 +108,7 @@
   
   <div id="content">
     <h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3>
-<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title">Program</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="built_in">string</span>[] args</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">       <span class="keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="string">&quot;ConsoleApp.Teacher&quot;</span>)!;</span><br><span class="line">        </span><br><span class="line">       teacher.Eat(<span class="string">&quot;胡&quot;</span>);</span><br><span class="line">       </span><br><span class="line">       <span class="keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="string">&quot;ConsoleApp.Student&quot;</span>)!;</span><br><span class="line">        </span><br><span class="line">       student.Eat(<span class="string">&quot;胡&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="built_in">string</span> name)</span><br><span class="line">    &#123;</span><br><span class="line">       <span class="keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;</span><br><span class="line">       <span class="keyword">return</span> t;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs c#"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Program</span><br>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-built_in">string</span>[] args</span>)</span><br>    &#123;<br>       <span class="hljs-keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Teacher&quot;</span>)!;<br>        <br>       teacher.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>       <br>       <span class="hljs-keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Student&quot;</span>)!;<br>        <br>       student.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>    &#125;<br><br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="hljs-built_in">string</span> name)<br>    &#123;<br>       <span class="hljs-keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;<br>       <span class="hljs-keyword">return</span> t;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
   </div>
 
@@ -208,7 +208,8 @@
 
 <script src="/ssp/js/highlight.min.js"></script>
 
-
+<script src="/ssp/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 </body>
 

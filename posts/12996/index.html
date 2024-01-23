@@ -10,8 +10,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="/ssp/img/favicon.png">
-  <script src="/ssp/js/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+
   
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 
@@ -21,7 +20,8 @@
   
 <link rel="stylesheet" href="/ssp/css/style.css">
 
-
+  <script src="/ssp/js/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
   
   <title>Office Online Server搭建操作 - Sp</title>
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/ssp/atom.xml" title="Sp" type="application/atom+xml">
@@ -109,11 +109,11 @@
   <div id="content">
     <h1 id="saf"><a class="markdownIt-Anchor" href="#saf"></a> SAF</h1>
 <h3 id="创建oos场"><a class="markdownIt-Anchor" href="#创建oos场"></a> 创建OOS场</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled<br></code></pre></td></tr></table></figure>
 <h3 id="开放url"><a class="markdownIt-Anchor" href="#开放url"></a> 开放URL</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="variable">$true</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="hljs-variable">$true</span><br></code></pre></td></tr></table></figure>
 <h3 id="查看oos场信息"><a class="markdownIt-Anchor" href="#查看oos场信息"></a> 查看OOS场信息</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Get-OfficeWebAppsFarm</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">Get-OfficeWebAppsFarm<br></code></pre></td></tr></table></figure>
 
   </div>
 
@@ -213,7 +213,8 @@
 
 <script src="/ssp/js/highlight.min.js"></script>
 
-
+<script src="/ssp/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 </body>
 
