@@ -107,7 +107,7 @@
   </div>
   
   <div id="content">
-    <h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3>
+    <h3 id="C-通过全类名创建对象">C#通过全类名创建对象</h3>
 <figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title">Program</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="built_in">string</span>[] args</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">       <span class="keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="string">&quot;ConsoleApp.Teacher&quot;</span>)!;</span><br><span class="line">        </span><br><span class="line">       teacher.Eat(<span class="string">&quot;胡&quot;</span>);</span><br><span class="line">       </span><br><span class="line">       <span class="keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="string">&quot;ConsoleApp.Student&quot;</span>)!;</span><br><span class="line">        </span><br><span class="line">       student.Eat(<span class="string">&quot;胡&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="built_in">string</span> name)</span><br><span class="line">    &#123;</span><br><span class="line">       <span class="keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;</span><br><span class="line">       <span class="keyword">return</span> t;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
   </div>
@@ -117,11 +117,6 @@
   <div class="right-content">
     <div id="toc" class="toc-wrapper"></div>
   <div>
-    <link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/9.2.0/styles/github.min.css">
-<script src="//cdn.bootcss.com/highlight.js/9.2.0/highlight.min.js">
-
-  // highlight
-  hljs.initHighlightingOnLoad();
 
 </script>
 
@@ -148,7 +143,7 @@
     <div>Powered By <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> - Theme <a target="_blank" rel="noopener" href="https://github.com/thomasyu929/hexo-theme-peomas">Peomas</a></div>
   </div>
 </div>
-<script src="/js/highlight.pack.js"></script>
+<script src="/ssp/js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
   <div id="searchModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
