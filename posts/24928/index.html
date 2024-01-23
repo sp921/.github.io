@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="/ssp/img/favicon.png">
-
+  <link rel="stylesheet" href="/css/highlight/styles/vs2015.css">
   
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 
@@ -113,9 +113,7 @@ npm ERR! request to <a target="_blank" rel="noopener" href="https://r.cnpmjs.org
 <p>npm ERR! A complete log of this run can be found in:<br />
 npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debug.log</p>
 <p>解决方案：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> cache clean <span class="token parameter variable">--force</span>
-<span class="token function">npm</span> config <span class="token builtin class-name">set</span> strict-ssl <span class="token boolean">false</span>
-<span class="token function">npm</span> <span class="token function">install</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm cache clean --force</span><br><span class="line">npm config <span class="built_in">set</span> strict-ssl <span class="literal">false</span></span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
 
   </div>
 
@@ -155,6 +153,8 @@ npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debu
     <div>Powered By <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> - Theme <a target="_blank" rel="noopener" href="https://github.com/thomasyu929/hexo-theme-peomas">Peomas</a></div>
   </div>
 </div>
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
   <div id="searchModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable modal-lg">

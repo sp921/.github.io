@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="/ssp/img/favicon.png">
-
+  <link rel="stylesheet" href="/css/highlight/styles/vs2015.css">
   
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 
@@ -133,13 +133,7 @@ npm ERR! A complete log of this run can be found in:...
         <div class="description">
           
              C#通过全类名创建对象
-public static class Program
-&#123;
-    public static void Main(string[] args)
-    &#123;
-       var  teacher &#x3D; GetObj&lt;IPerson&gt;(&quot;ConsoleApp.Teacher&quot;)!;
-        
-      ...
+12345678910111213141516171819public static class Program&#123;    public static void Main(string[] args)    &#123;       var  teacher = GetObj&lt;IPerson&gt;(&quot;ConsoleApp.Teacher&quot...
           
         </div>
         <div class="post-footer">
@@ -171,11 +165,11 @@ public static class Program
           
              SAF
  创建OOS场
-New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled
+1New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled
  开放URL
-Set-OfficeWebAppsFarm -OpenFromUrlEnabled:$true
+1Set-OfficeWebAppsFarm -OpenFromUrlEnabled:$true
  查看OOS场信息
-Get-OfficeWebAppsFarm
+1Get-OfficeWebAppsFarm
 ...
           
         </div>
@@ -219,6 +213,8 @@ Get-OfficeWebAppsFarm
     <div>Powered By <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> - Theme <a target="_blank" rel="noopener" href="https://github.com/thomasyu929/hexo-theme-peomas">Peomas</a></div>
   </div>
 </div>
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
   <div id="searchModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable modal-lg">

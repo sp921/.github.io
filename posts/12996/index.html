@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="/ssp/img/favicon.png">
-
+  <link rel="stylesheet" href="/css/highlight/styles/vs2015.css">
   
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 
@@ -109,11 +109,11 @@
   <div id="content">
     <h1 id="saf"><a class="markdownIt-Anchor" href="#saf"></a> SAF</h1>
 <h3 id="创建oos场"><a class="markdownIt-Anchor" href="#创建oos场"></a> 创建OOS场</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">New-OfficeWebAppsFarm <span class="token parameter variable">-InternalURL</span> http://192.168.116.176 <span class="token parameter variable">-AllowHttp</span> <span class="token parameter variable">-EditingEnabled</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled</span><br></pre></td></tr></table></figure>
 <h3 id="开放url"><a class="markdownIt-Anchor" href="#开放url"></a> 开放URL</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="token variable">$true</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="variable">$true</span></span><br></pre></td></tr></table></figure>
 <h3 id="查看oos场信息"><a class="markdownIt-Anchor" href="#查看oos场信息"></a> 查看OOS场信息</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Get-OfficeWebAppsFarm<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Get-OfficeWebAppsFarm</span><br></pre></td></tr></table></figure>
 
   </div>
 
@@ -153,6 +153,8 @@
     <div>Powered By <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> - Theme <a target="_blank" rel="noopener" href="https://github.com/thomasyu929/hexo-theme-peomas">Peomas</a></div>
   </div>
 </div>
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
   <div id="searchModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable modal-lg">
