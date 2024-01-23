@@ -107,10 +107,10 @@
   </div>
   
   <div id="content">
-    <p>npm ERR! code CERT_HAS_EXPIRED<br>
-npm ERR! errno CERT_HAS_EXPIRED<br>
+    <p>npm ERR! code CERT_HAS_EXPIRED<br />
+npm ERR! errno CERT_HAS_EXPIRED<br />
 npm ERR! request to <a target="_blank" rel="noopener" href="https://r.cnpmjs.org/md5">https://r.cnpmjs.org/md5</a> failed, reason: certificate has expired</p>
-<p>npm ERR! A complete log of this run can be found in:<br>
+<p>npm ERR! A complete log of this run can be found in:<br />
 npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debug.log</p>
 <p>解决方案：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm cache clean --force</span><br><span class="line">npm config <span class="built_in">set</span> strict-ssl <span class="literal">false</span></span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
@@ -210,6 +210,12 @@ npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debu
 
 <script src="/ssp/js/plugin.js"></script>
 
+
+<script src="/ssp/js/highlight.min.js"></script>
+
+
+
+<link rel="stylesheet" href="/ssp/css/_highlight/styles/vs2015.css">
 
 
 </body>

@@ -3,7 +3,7 @@
   <entry>
     <title>C#动态创建对象</title>
     <url>/ssp/posts/1935/</url>
-    <content><![CDATA[<h3 id="C-通过全类名创建对象">C#通过全类名创建对象</h3>
+    <content><![CDATA[<h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3>
 <figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title">Program</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="built_in">string</span>[] args</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">       <span class="keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="string">&quot;ConsoleApp.Teacher&quot;</span>)!;</span><br><span class="line">        </span><br><span class="line">       teacher.Eat(<span class="string">&quot;胡&quot;</span>);</span><br><span class="line">       </span><br><span class="line">       <span class="keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="string">&quot;ConsoleApp.Student&quot;</span>)!;</span><br><span class="line">        </span><br><span class="line">       student.Eat(<span class="string">&quot;胡&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="built_in">string</span> name)</span><br><span class="line">    &#123;</span><br><span class="line">       <span class="keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;</span><br><span class="line">       <span class="keyword">return</span> t;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <tags>
@@ -13,10 +13,10 @@
   <entry>
     <title>CERT_HAS_EXPIRED</title>
     <url>/ssp/posts/24928/</url>
-    <content><![CDATA[<p>npm ERR! code CERT_HAS_EXPIRED<br>
-npm ERR! errno CERT_HAS_EXPIRED<br>
+    <content><![CDATA[<p>npm ERR! code CERT_HAS_EXPIRED<br />
+npm ERR! errno CERT_HAS_EXPIRED<br />
 npm ERR! request to <a href="https://r.cnpmjs.org/md5">https://r.cnpmjs.org/md5</a> failed, reason: certificate has expired</p>
-<p>npm ERR! A complete log of this run can be found in:<br>
+<p>npm ERR! A complete log of this run can be found in:<br />
 npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debug.log</p>
 <p>解决方案：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm cache clean --force</span><br><span class="line">npm config <span class="built_in">set</span> strict-ssl <span class="literal">false</span></span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
@@ -28,12 +28,12 @@ npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debu
   <entry>
     <title>Office Online Server搭建操作</title>
     <url>/ssp/posts/12996/</url>
-    <content><![CDATA[<h1>SAF</h1>
-<h3 id="创建OOS场">创建OOS场</h3>
+    <content><![CDATA[<h1 id="saf"><a class="markdownIt-Anchor" href="#saf"></a> SAF</h1>
+<h3 id="创建oos场"><a class="markdownIt-Anchor" href="#创建oos场"></a> 创建OOS场</h3>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled</span><br></pre></td></tr></table></figure>
-<h3 id="开放URL">开放URL</h3>
+<h3 id="开放url"><a class="markdownIt-Anchor" href="#开放url"></a> 开放URL</h3>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="variable">$true</span></span><br></pre></td></tr></table></figure>
-<h3 id="查看OOS场信息">查看OOS场信息</h3>
+<h3 id="查看oos场信息"><a class="markdownIt-Anchor" href="#查看oos场信息"></a> 查看OOS场信息</h3>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Get-OfficeWebAppsFarm</span><br></pre></td></tr></table></figure>
 ]]></content>
       <tags>
