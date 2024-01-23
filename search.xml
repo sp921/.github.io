@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>C#动态创建对象</title>
-    <url>/ssp/posts/1935/</url>
-    <content><![CDATA[<h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title">Program</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="built_in">string</span>[] args</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">       <span class="keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="string">&quot;ConsoleApp.Teacher&quot;</span>)!;</span><br><span class="line">        </span><br><span class="line">       teacher.Eat(<span class="string">&quot;胡&quot;</span>);</span><br><span class="line">       </span><br><span class="line">       <span class="keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="string">&quot;ConsoleApp.Student&quot;</span>)!;</span><br><span class="line">        </span><br><span class="line">       student.Eat(<span class="string">&quot;胡&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="built_in">string</span> name)</span><br><span class="line">    &#123;</span><br><span class="line">       <span class="keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;</span><br><span class="line">       <span class="keyword">return</span> t;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>编程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CERT_HAS_EXPIRED</title>
     <url>/ssp/posts/24928/</url>
     <content><![CDATA[<p>npm ERR! code CERT_HAS_EXPIRED<br />
@@ -23,6 +13,16 @@ npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debu
 ]]></content>
       <tags>
         <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C#动态创建对象</title>
+    <url>/ssp/posts/1935/</url>
+    <content><![CDATA[<h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title">Program</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="built_in">string</span>[] args</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">       <span class="keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="string">&quot;ConsoleApp.Teacher&quot;</span>)!;</span><br><span class="line">        </span><br><span class="line">       teacher.Eat(<span class="string">&quot;胡&quot;</span>);</span><br><span class="line">       </span><br><span class="line">       <span class="keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="string">&quot;ConsoleApp.Student&quot;</span>)!;</span><br><span class="line">        </span><br><span class="line">       student.Eat(<span class="string">&quot;胡&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="built_in">string</span> name)</span><br><span class="line">    &#123;</span><br><span class="line">       <span class="keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;</span><br><span class="line">       <span class="keyword">return</span> t;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
