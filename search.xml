@@ -1,43 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>C#动态创建对象</title>
-    <url>/ssp/posts/1935/</url>
-    <content><![CDATA[<h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3>
-<figure class="highlight c#"><table><tr><td class="code"><pre><code class="hljs c#"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Program</span><br>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-built_in">string</span>[] args</span>)</span><br>    &#123;<br>       <span class="hljs-keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Teacher&quot;</span>)!;<br>        <br>       teacher.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>       <br>       <span class="hljs-keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Student&quot;</span>)!;<br>        <br>       student.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>    &#125;<br><br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="hljs-built_in">string</span> name)<br>    &#123;<br>       <span class="hljs-keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;<br>       <span class="hljs-keyword">return</span> t;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>编程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CERT_HAS_EXPIRED</title>
-    <url>/ssp/posts/24928/</url>
-    <content><![CDATA[<p>npm ERR! code CERT_HAS_EXPIRED<br />
-npm ERR! errno CERT_HAS_EXPIRED<br />
-npm ERR! request to <a href="https://r.cnpmjs.org/md5">https://r.cnpmjs.org/md5</a> failed, reason: certificate has expired</p>
-<p>npm ERR! A complete log of this run can be found in:<br />
-npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debug.log</p>
-<p>解决方案：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">npm cache clean --force<br>npm config <span class="hljs-built_in">set</span> strict-ssl <span class="hljs-literal">false</span><br>npm install<br></code></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>npm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Office Online Server搭建操作</title>
-    <url>/ssp/posts/12996/</url>
-    <content><![CDATA[<h1 id="saf"><a class="markdownIt-Anchor" href="#saf"></a> SAF</h1>
-<h3 id="创建oos场"><a class="markdownIt-Anchor" href="#创建oos场"></a> 创建OOS场</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled<br></code></pre></td></tr></table></figure>
-<h3 id="开放url"><a class="markdownIt-Anchor" href="#开放url"></a> 开放URL</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="hljs-variable">$true</span><br></code></pre></td></tr></table></figure>
-<h3 id="查看oos场信息"><a class="markdownIt-Anchor" href="#查看oos场信息"></a> 查看OOS场信息</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">Get-OfficeWebAppsFarm<br></code></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>Ms</tag>
-      </tags>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>CERT_HAS_EXPIRED</title>
+      <link href="/ssp/posts/24928/"/>
+      <url>/ssp/posts/24928/</url>
+      
+        <content type="html"><![CDATA[<p>npm ERR! code CERT_HAS_EXPIRED<br />npm ERR! errno CERT_HAS_EXPIRED<br />npm ERR! request to <a href="https://r.cnpmjs.org/md5">https://r.cnpmjs.org/md5</a> failed, reason: certificate has expired</p><p>npm ERR! A complete log of this run can be found in:<br />npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debug.log</p><p>解决方案：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm cache clean --force<br>npm config <span class="hljs-built_in">set</span> strict-ssl <span class="hljs-literal">false</span><br>npm install<br></code></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> npm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C#动态创建对象</title>
+      <link href="/ssp/posts/1935/"/>
+      <url>/ssp/posts/1935/</url>
+      
+        <content type="html"><![CDATA[<h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs c#"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Program</span><br>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-built_in">string</span>[] args</span>)</span><br>    &#123;<br>       <span class="hljs-keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Teacher&quot;</span>)!;<br>        <br>       teacher.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>       <br>       <span class="hljs-keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Student&quot;</span>)!;<br>        <br>       student.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>    &#125;<br><br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="hljs-built_in">string</span> name)<br>    &#123;<br>       <span class="hljs-keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;<br>       <span class="hljs-keyword">return</span> t;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Office Online Server搭建操作</title>
+      <link href="/ssp/posts/12996/"/>
+      <url>/ssp/posts/12996/</url>
+      
+        <content type="html"><![CDATA[<h1 id="saf"><a class="markdownIt-Anchor" href="#saf"></a> SAF</h1><h3 id="创建oos场"><a class="markdownIt-Anchor" href="#创建oos场"></a> 创建OOS场</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled<br></code></pre></td></tr></table></figure><h3 id="开放url"><a class="markdownIt-Anchor" href="#开放url"></a> 开放URL</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="hljs-variable">$true</span><br></code></pre></td></tr></table></figure><h3 id="查看oos场信息"><a class="markdownIt-Anchor" href="#查看oos场信息"></a> 查看OOS场信息</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">Get-OfficeWebAppsFarm<br></code></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Ms </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
