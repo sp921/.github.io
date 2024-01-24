@@ -6,7 +6,7 @@
   <link href="https://sp921.github.io/ssp/atom.xml" rel="self"/>
   
   <link href="https://sp921.github.io/ssp/"/>
-  <updated>2024-01-23T03:26:15.772Z</updated>
+  <updated>2024-01-24T01:39:00.189Z</updated>
   <id>https://sp921.github.io/ssp/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Adobe Premiere简介</title>
+    <link href="https://sp921.github.io/ssp/posts/2152621863/"/>
+    <id>https://sp921.github.io/ssp/posts/2152621863/</id>
+    <published>2024-01-24T01:38:00.000Z</published>
+    <updated>2024-01-24T01:39:00.189Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="adobe-premiere-简介"><a class="markdownIt-Anchor" href="#adobe-premiere-简介"></a> Adobe Premiere 简介</h3><p>Adobe Premiere是一款专业的视频编辑软件，由Adobe公司开发。它可以用于剪辑、合成、调色、特效处理等视频编辑工作，是广播、电影、网络和移动视频制作领域中最常用的视频编辑软件之一。Adobe Premiere支持多种视频格式和分辨率，可以在不同的平台上进行编辑和导出，如Windows和Mac OS。它还与其他Adobe软件如After Effects、Photoshop等无缝集成，为用户提供更多的创作可能性。Adobe Premiere拥有丰富的视频编辑功能和工具，能够满足各种视频制作需求，是视频编辑领域的领先软件之一。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;adobe-premiere-简介&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#adobe-premiere-简介&quot;&gt;&lt;/a&gt; Adobe Premiere 简介&lt;/h3&gt;
+&lt;p&gt;Adobe Premiere是一款专业的视频编辑软件，</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>代码块高亮显示</title>
@@ -43,14 +64,14 @@
     <published>2024-01-22T08:19:30.000Z</published>
     <updated>2024-01-22T08:20:10.786Z</updated>
     
-    <content type="html"><![CDATA[<p>npm ERR! code CERT_HAS_EXPIRED<br />npm ERR! errno CERT_HAS_EXPIRED<br />npm ERR! request to <a href="https://r.cnpmjs.org/md5">https://r.cnpmjs.org/md5</a> failed, reason: certificate has expired</p><p>npm ERR! A complete log of this run can be found in:<br />npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debug.log</p><p>解决方案：</p><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">npm cache clean --force<br>npm config <span class="hljs-built_in">set</span> strict-ssl <span class="hljs-literal">false</span><br>npm install<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>npm ERR! code CERT_HAS_EXPIRED<br>npm ERR! errno CERT_HAS_EXPIRED<br>npm ERR! request to <a href="https://r.cnpmjs.org/md5">https://r.cnpmjs.org/md5</a> failed, reason: certificate has expired</p><p>npm ERR! A complete log of this run can be found in:<br>npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debug.log</p><p>解决方案：</p><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">npm cache clean --force<br>npm config <span class="hljs-built_in">set</span> strict-ssl <span class="hljs-literal">false</span><br>npm install<br></code></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;npm ERR! code CERT_HAS_EXPIRED&lt;br /&gt;
-npm ERR! errno CERT_HAS_EXPIRED&lt;br /&gt;
-npm ERR! request to &lt;a href=&quot;https://r.cnpmjs.org/md5&quot;&gt;https:/</summary>
+    <summary type="html">&lt;p&gt;npm ERR! code CERT_HAS_EXPIRED&lt;br&gt;
+npm ERR! errno CERT_HAS_EXPIRED&lt;br&gt;
+npm ERR! request to &lt;a href=&quot;https://r.cnpmjs.org/md5&quot;&gt;https://r.c</summary>
       
     
     
@@ -67,13 +88,13 @@ npm ERR! request to &lt;a href=&quot;https://r.cnpmjs.org/md5&quot;&gt;https:/</
     <published>2024-01-19T09:39:56.000Z</published>
     <updated>2024-01-19T09:54:51.890Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3><figure class="highlight c#"><table><tr><td class="code"><pre><code class="hljs c#"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Program</span><br>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-built_in">string</span>[] args</span>)</span><br>    &#123;<br>       <span class="hljs-keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Teacher&quot;</span>)!;<br>        <br>       teacher.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>       <br>       <span class="hljs-keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Student&quot;</span>)!;<br>        <br>       student.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>    &#125;<br><br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="hljs-built_in">string</span> name)<br>    &#123;<br>       <span class="hljs-keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;<br>       <span class="hljs-keyword">return</span> t;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h3 id="C-通过全类名创建对象">C#通过全类名创建对象</h3><figure class="highlight c#"><table><tr><td class="code"><pre><code class="hljs c#"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Program</span><br>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-built_in">string</span>[] args</span>)</span><br>    &#123;<br>       <span class="hljs-keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Teacher&quot;</span>)!;<br>        <br>       teacher.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>       <br>       <span class="hljs-keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Student&quot;</span>)!;<br>        <br>       student.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>    &#125;<br><br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="hljs-built_in">string</span> name)<br>    &#123;<br>       <span class="hljs-keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;<br>       <span class="hljs-keyword">return</span> t;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;c通过全类名创建对象&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#c通过全类名创建对象&quot;&gt;&lt;/a&gt; C#通过全类名创建对象&lt;/h3&gt;
-&lt;figure class=&quot;highlight c#&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=</summary>
+    <summary type="html">&lt;h3 id=&quot;C-通过全类名创建对象&quot;&gt;C#通过全类名创建对象&lt;/h3&gt;
+&lt;figure class=&quot;highlight c#&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs c#&quot;&gt;&lt;span class=&quot;hljs-</summary>
       
     
     
@@ -90,13 +111,14 @@ npm ERR! request to &lt;a href=&quot;https://r.cnpmjs.org/md5&quot;&gt;https:/</
     <published>2024-01-19T02:41:07.000Z</published>
     <updated>2024-01-22T05:26:36.380Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="saf"><a class="markdownIt-Anchor" href="#saf"></a> SAF</h1><h3 id="创建oos场"><a class="markdownIt-Anchor" href="#创建oos场"></a> 创建OOS场</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled<br></code></pre></td></tr></table></figure><h3 id="开放url"><a class="markdownIt-Anchor" href="#开放url"></a> 开放URL</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="hljs-variable">$true</span><br></code></pre></td></tr></table></figure><h3 id="查看oos场信息"><a class="markdownIt-Anchor" href="#查看oos场信息"></a> 查看OOS场信息</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">Get-OfficeWebAppsFarm<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1>SAF</h1><h3 id="创建OOS场">创建OOS场</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">New-OfficeWebAppsFarm -InternalURL http://192.168.116.176 -AllowHttp -EditingEnabled<br></code></pre></td></tr></table></figure><h3 id="开放URL">开放URL</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">Set-OfficeWebAppsFarm -OpenFromUrlEnabled:<span class="hljs-variable">$true</span><br></code></pre></td></tr></table></figure><h3 id="查看OOS场信息">查看OOS场信息</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">Get-OfficeWebAppsFarm<br></code></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;saf&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#saf&quot;&gt;&lt;/a&gt; SAF&lt;/h1&gt;
-&lt;h3 id=&quot;创建oos场&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#创建oos场&quot;&gt;&lt;/a&gt; 创建OOS场&lt;</summary>
+    <summary type="html">&lt;h1&gt;SAF&lt;/h1&gt;
+&lt;h3 id=&quot;创建OOS场&quot;&gt;创建OOS场&lt;/h3&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;New-OfficeW</summary>
       
     
     
