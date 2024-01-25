@@ -3,7 +3,6 @@ listenSearchInput('/ssp/search.xml', '#search', '#result');
 function listenSearchInput(url, searchId, resultId) {
   const searchEl = $(searchId);
   const resultEl = $(resultId);
-  console.log(url);
   $('#searchModal').on('shown.bs.modal', function () {
     searchEl.focus();
   })
