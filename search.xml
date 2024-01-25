@@ -3,9 +3,19 @@
   <entry>
     <title>Adobe-Premiere简介</title>
     <url>/ssp/posts/2084574507/</url>
-    <content><![CDATA[<p><img src="C:%5CUsers%5Czw%5CDesktop%5CHexo%5Cblog%5Csource_posts%5CAdobe-Premiere%E7%AE%80%E4%BB%8B%5Cu=2793918788,183758454&amp;fm=30&amp;app=106&amp;f=JPEG.jpg" alt="" /></p>
+    <content><![CDATA[<p><img src="PR.jpg" alt="" /></p>
 <p>Adobe Premiere是一款专业的视频编辑软件，由Adobe公司开发。它可以用于剪辑、合成、调色、特效处理等视频编辑工作，是广播、电影、网络和移动视频制作领域中最常用的视频编辑软件之一。Adobe Premiere支持多种视频格式和分辨率，可以在不同的平台上进行编辑和导出，如Windows和Mac OS。它还与其他Adobe软件如After Effects、Photoshop等无缝集成，为用户提供更多的创作可能性。Adobe Premiere拥有丰富的视频编辑功能和工具，能够满足各种视频制作需求，是视频编辑领域的领先软件之一。</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>C#动态创建对象</title>
+    <url>/ssp/posts/1935/</url>
+    <content><![CDATA[<h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3>
+<figure class="highlight c#"><table><tr><td class="code"><pre><code class="hljs c#"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Program</span><br>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-built_in">string</span>[] args</span>)</span><br>    &#123;<br>       <span class="hljs-keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Teacher&quot;</span>)!;<br>        <br>       teacher.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>       <br>       <span class="hljs-keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Student&quot;</span>)!;<br>        <br>       student.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>    &#125;<br><br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="hljs-built_in">string</span> name)<br>    &#123;<br>       <span class="hljs-keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;<br>       <span class="hljs-keyword">return</span> t;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>编程</tag>
+      </tags>
   </entry>
   <entry>
     <title>CERT_HAS_EXPIRED</title>
@@ -35,16 +45,6 @@ npm ERR!     D:\Tool\WorkTool\Node\node_cache_logs\2021-10-20T08_45_38_250Z-debu
 ]]></content>
       <tags>
         <tag>Ms</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C#动态创建对象</title>
-    <url>/ssp/posts/1935/</url>
-    <content><![CDATA[<h3 id="c通过全类名创建对象"><a class="markdownIt-Anchor" href="#c通过全类名创建对象"></a> C#通过全类名创建对象</h3>
-<figure class="highlight c#"><table><tr><td class="code"><pre><code class="hljs c#"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Program</span><br>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-built_in">string</span>[] args</span>)</span><br>    &#123;<br>       <span class="hljs-keyword">var</span>  teacher = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Teacher&quot;</span>)!;<br>        <br>       teacher.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>       <br>       <span class="hljs-keyword">var</span>  student = GetObj&lt;IPerson&gt;(<span class="hljs-string">&quot;ConsoleApp.Student&quot;</span>)!;<br>        <br>       student.Eat(<span class="hljs-string">&quot;胡&quot;</span>);<br>    &#125;<br><br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> TInterface? GetObj&lt;TInterface&gt; (<span class="hljs-built_in">string</span> name)<br>    &#123;<br>       <span class="hljs-keyword">var</span> t = (TInterface) Activator.CreateInstance(Type.GetType(name)!)!;<br>       <span class="hljs-keyword">return</span> t;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>编程</tag>
       </tags>
   </entry>
   <entry>
