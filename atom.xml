@@ -59,26 +59,6 @@
   </entry>
   
   <entry>
-    <title>代码块高亮显示</title>
-    <link href="https://sp921.github.io/ssp/posts/132285970/"/>
-    <id>https://sp921.github.io/ssp/posts/132285970/</id>
-    <published>2024-01-23T03:23:22.000Z</published>
-    <updated>2024-01-23T03:26:15.772Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span> <span class="hljs-params">()</span>&#123;<br><br>    System.out.print(<span class="hljs-string">&quot;hello world&quot;</span>)<br><br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;public&lt;/span&gt; &lt;span class</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>CERT_HAS_EXPIRED</title>
     <link href="https://sp921.github.io/ssp/posts/24928/"/>
     <id>https://sp921.github.io/ssp/posts/24928/</id>
