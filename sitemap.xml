@@ -29,33 +29,6 @@
   </url>
   
   <url>
-    <loc>https://sp921.github.io/ssp/posts/24928/</loc>
-    
-    <lastmod>2024-01-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sp921.github.io/ssp/posts/12996/</loc>
-    
-    <lastmod>2024-01-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sp921.github.io/ssp/posts/1935/</loc>
-    
-    <lastmod>2024-01-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://sp921.github.io/ssp/contactway/index.html</loc>
     
     <lastmod>2024-01-19</lastmod>
@@ -94,32 +67,11 @@
 
   <url>
     <loc>https://sp921.github.io/ssp</loc>
-    <lastmod>2024-01-25</lastmod>
+    <lastmod>2024-01-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>https://sp921.github.io/ssp/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://sp921.github.io/ssp/tags/Ms/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://sp921.github.io/ssp/tags/npm/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
 
   
